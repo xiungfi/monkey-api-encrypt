@@ -107,6 +107,8 @@ public class EncryptionFilter implements Filter {
             encryptionStatus = true;
         }
 
+
+
         // 接口在忽略加密列表中
         if (encryptionIgnoreStatus) {
             encryptionStatus = false;
@@ -178,7 +180,7 @@ public class EncryptionFilter implements Filter {
                 String paramName = parameterNames.nextElement();
                 String prefixUri = req.getMethod().toLowerCase() + ":" + uri;
                 if (encryptionConfig.getRequestDecryptParams(prefixUri).contains(paramName)) {
-                    String paramValue = req.getParameter(paramName);
+                    String paramValue = req.getParameter(paramName).replace(' ','+');
                     String decryptParamValue = encryptAlgorithm.decrypt(paramValue, encryptionConfig.getKey());
                     paramMap.put(paramName, decryptParamValue);
                 }
