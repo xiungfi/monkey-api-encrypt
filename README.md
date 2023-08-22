@@ -374,3 +374,13 @@ spring-boot-starter-encrypt是最开始的1.0版本，基于Spring MVC机制实�
 示列：https://github.com/yinjihuan/spring-boot-starter-encrypt-example
 
 原理讲解：http://cxytiandi.com/blog/detail/20235
+
+## 文章
+- [1.1.1版本发布](https://mp.weixin.qq.com/s/3HoHnzsdPIvNgjkLr9GSIw)
+- [1.1.2版本发布](https://mp.weixin.qq.com/s/JJFxbkb9HtVMECByvMJ4Gg)
+- [1.2版本发布](https://mp.weixin.qq.com/s/TbTr44Hc9gkJB40L9eHHYQ)
+
+
+# 作者
+- 尹吉欢 1304489315@qq.com
+- 博客 http://cxytiandi.com/blogs/yinjihuan
